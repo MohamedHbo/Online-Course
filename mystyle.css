@@ -1,0 +1,102 @@
+
+  body{
+    background-image: url(1.jpg);
+      
+  }
+
+ul li a{
+  padding: 5px;
+font-size: 2em;
+border: 1p;
+}
+li:hover{
+margin: 4px;
+color:orange;
+}
+.addrss_1{
+color: white;
+text-align: center;
+}
+section{
+width: 99%;
+text-align: center;
+}
+.first{
+  display:grid;
+  grid-template-columns: auto auto auto;
+
+}
+.first .cart{
+  padding: 5px;
+  border-radius: 15px;
+    width: 350px;
+    height: 450px;
+  margin: 7px;
+background-color:  beige;
+
+}
+.cart img{
+margin: 2px;
+width:50%;
+height: 50%;
+}
+button{
+  font-size: 2em;
+}
+.cart h4{color: green;
+}
+
+#hh1,#hh2,#hh3,#hh4,#hh5{
+  display: none;
+}
+
+#btn_n{
+  display: none;
+}
+@media (max-width: 700px) {
+
+  .first{
+    display:grid;
+    grid-template-columns: auto auto;
+  
+  }
+#btn_n{
+  display: block;
+}
+  #cuid{
+    display: none;
+  }
+
+}
+
+.cc{
+    text-align:center;
+    
+}
+.bnt{
+    border: 3px solid #FBA510;
+    background: #8FBBFF;
+    padding: 10px 20px;
+    font-family: "montserrat";
+    color: orange;
+    transition: 0.7s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.bnt:hover{
+    color: whitesmoke;
+}
+.bnt::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #8FBBFF;
+    z-index: -1;
+    transition: 0.7s;
+}
+.nav-item:hover{
+    color: orange;
+}
